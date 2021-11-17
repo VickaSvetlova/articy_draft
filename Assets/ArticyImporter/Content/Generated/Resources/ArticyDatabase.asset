@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8765130977829318659
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 063f3345f00743c47ab079c46292df8d, type: 3}
+  m_Name: ArticyScriptFragments
+  m_EditorClassIdentifier: 
+--- !u!114 &-7383303941410041273
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1655710724, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: HierarchyManager
+  m_EditorClassIdentifier: 
+  serializedNodes:
+  - id: 72057598332895233
+    parent: 0
+    technicalName: ManiacManfred
+    articyType: Project
+    childCount: 0
+    indexOfFirstChild: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: ArticyDatabase
+  m_EditorClassIdentifier: 
+  mHierarchy: {fileID: -7383303941410041273}
+  mLocalization: {fileID: 7817495239859466856}
+  mInternalProject:
+    mName: Maniac Manfred 3.0
+    mDetailName: A demo project for articy Unity Export.
+    mId: c1e328f6-def5-47ae-9559-92d480c666e9
+    mTechnicalName: ManiacManfred
+  mImportedAssets:
+  - Assets/Images/Characters/DrArtieCee
+  - Assets/Images/Characters/Guard
+  - Assets/Images/Characters/Hamster
+  - Assets/Images/Characters/Lunatic
+  - Assets/Images/Characters/Einstein
+  - Assets/Images/Characters/Chars_UnknownVoice
+  - Assets/Images/UI/font
+  - Assets/Images/UI/bevel_large
+  - Assets/Images/UI/mouse_speak
+  - Assets/Images/UI/mouse_take
+  - Assets/Images/UI/mouse_walk
+  - Assets/Images/UI/mouse_inspect
+  - Assets/Images/UI/item_select
+  - Assets/Images/UI/mouse_point
+  - Assets/Images/UI/branch_background
+  - Assets/Images/Screens/Cell/cell_object_Crowbar
+  - Assets/Images/Screens/Cell/cell_character_DrArtieCee_Knockedout
+  - Assets/Images/Screens/Cell/cell_character_DrArtieCee_Standing
+  - Assets/Images/Screens/Cell/cell_background
+  - Assets/Images/Screens/Cellar/cellar_background
+  - Assets/Images/Screens/Cellar/cellar_object_Glowing_Sink
+  - Assets/Images/Screens/Cellar/cellar_object_Woodrobe_Open
+  - Assets/Images/Screens/Cellar/cellar_object_Cleaningcart
+  - Assets/Images/Screens/Cellar/cellar_object_Hamster
+  - Assets/Images/Screens/Cellar/cellar_object_Hamster_Opener
+  - Assets/Images/Screens/Corridor/corridor_background
+  - Assets/Images/Screens/Lobby/lobby_character_DrArtieCee_Knockedout
+  - Assets/Images/Screens/Lobby/lobby_character_DrArtieCee_Standing
+  - Assets/Images/Screens/Lobby/lobby_object_Sleepingpills
+  - Assets/Images/Screens/Lobby/lobby_character_Guard_Knockedout
+  - Assets/Images/Screens/Lobby/lobby_character_Guard_Sleeping
+  - Assets/Images/Screens/Lobby/lobby_character_Guard
+  - Assets/Images/Screens/Lobby/lobby_background
+  - Assets/Images/Screens/Exterior/Exterior_Title
+  - Assets/Images/Dialog/continue_active
+  - Assets/Images/Items/ABomb_ConstructionKit
+  - Assets/Images/Items/AluminiumFoil
+  - Assets/Images/Items/Banana
+  - Assets/Images/Items/Cable
+  - Assets/Images/Items/Crowbar
+  - Assets/Images/Items/Key
+  - Assets/Images/Items/Pills
+  - Assets/Images/Items/Detonator
+  - Assets/Images/Items/Plutonium
+  - Assets/Images/Items/EnrichedPlutonium
+  - Assets/Images/Items/Bomb
+  - Assets/Images/Items/Item_Hamster
+  - Assets/Images/Items/Item_LetterOpener
+  - Assets/Images/Items/Item_SleepingBanana
+  - Assets/Images/Items/Item_Broom
+  - Assets/Audio/music
+  - Assets/Images/Screens/Exterior/Exterior_End_Bad
+  - Assets/Images/Screens/Exterior/Exterior_End_Good
+  - Assets/Images/Screens/Exterior/Exterior_End_Neutral
+  mDefaultGlobalVariables: {fileID: 7250413420701366044}
+  mScriptFragments: {fileID: -8765130977829318659}
+  mPackages:
+  - PackageName: Export package
+    PackagePath: Export package
+    mIsDefaultPackage: 1
+--- !u!114 &7250413420701366044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255096c4df258c045a3041d78803e34f, type: 3}
+  m_Name: DefaultGlobalVariables
+  m_EditorClassIdentifier: 
+  BoolVariableCache:
+  - mFullQualifiedName: GameState.awake
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.looney_bin
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.memory
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.therapist_knockedOut
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.therapist_gone
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.door_open
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.therapist_convinced
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.looted
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.listenedToVoice
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.dialogue_beforeLobby
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.dialogue_beforeCellar
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.hamster_talkedTo
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.hamster_saved
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.overflow_open
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.book_read
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.locker_open
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.exit_open
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.therapist_down
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.therapist_knockedOut2
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.guard_met
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.guard_knockedOut
+    mVar:
+      values: 00
+  - mFullQualifiedName: GameState.guard_drugged
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.crowbar
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.key
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.opener
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.hamster
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.aluminium
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.bomb
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.plutonium
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.detonator
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.enrichedPlutonium
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.cable
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.broom
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.constructionKit
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.bananaPill
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.banana
+    mVar:
+      values: 00
+  - mFullQualifiedName: Inventory.sleepingPills
+    mVar:
+      values: 00
+  IntVariableCache:
+  - mFullQualifiedName: GameState.lock_number
+    mVar:
+      values: 00000000
+  - mFullQualifiedName: GameState.lock_correctNumbers
+    mVar:
+      values: 00000000
+  StringVariableCache: []
+  LiveBoolVariableCache: []
+  LiveIntVariableCache: []
+  LiveStringVariableCache: []
+  isInitialized: 1
+  mGameState:
+    _VariableStorage: {fileID: 7250413420701366044}
+  mInventory:
+    _VariableStorage: {fileID: 7250413420701366044}
+--- !u!114 &7817495239859466856
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1174674681, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: LocalizationManager
+  m_EditorClassIdentifier: 
+  OnLanguageChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  mUseLocalization: 1
+  mLanguage: en
+  mThrowOnMissingText: 0
+  mClearOnLanguageSwitch: 1
+  mExportLanguage: en
